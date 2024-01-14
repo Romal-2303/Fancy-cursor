@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  height: 100px;
+  padding: 1rem;
+}
+
+.shape-container {
+  display: flex;
+}
+
+.selected-item {
+  width: 60px;
+  height: 60px;
+  padding: 0.1rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.selected-item-circle {
+  border: 1.5px solid rgb(255, 55, 88);
+  border-radius: 50%;
+}
+
+.selected-item-square {
+  border: 1.5px solid rgb(255, 55, 88);
+}
+
+.shape {
+  width: 60px;
+  height: 60px;
+  background-color: pink;
+  cursor: pointer;
+}
+
+.shape-circle {
+  border-radius: 50%;
+}
+
+.shape-triangle {
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-bottom: 55px solid pink;
+  border-top: 55px solid transparent;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  transform: translateY(-50px);
+}
